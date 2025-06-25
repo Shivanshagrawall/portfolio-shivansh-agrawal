@@ -18,8 +18,10 @@ const projects = [
     demoUrl: "https://imagify-frontent.vercel.app/",
     githubUrl: "https://github.com/Shivanshagrawall/Imagify",
     features: [
+      "Real-time image generation from text prompts",
+      "Easy download options to effortlessly turn your creative ideas into reality.",
       "5 free credit points included in the free plan for image generation",
-      "Razorpay integration for purchasing credits",
+      "Razorpay integration for purchasing more credits",
     ],
   },
   {
