@@ -5,9 +5,20 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company: "Global Next Consulting India Private Limited",
+    period: " June 2025 - Present",
+    responsibilities: [
+      "Collaborated with team to design and develop MERN projects, meeting all project goals.",
+      "Built and deployed scalable web application ensuring optimal performance & security",
+      "Collaborated with mentors to deliver projects promptly and fulfill all defined requirements",
+    ],
+    skills: ["React", "Node.js", "Express.js", "MongoDB", "TailwindCSS", "UI/UX Design"],
+  },
+  {
     title:  "Full Stack Developer",
     company: "Freelance Software Developer",
-    period: "Mar 2025 - Present",
+    period: "Mar 2025 - June 2025",
     responsibilities: [
       "Developed 5+ end-to-end projects using MERN Stack, MEAN Stack, NextJs.",
       "Build and deployed scalable web application for various client ensuring optimal performance & security.",
@@ -17,17 +28,6 @@ const experiences = [
     ],
     skills: ["React", "TypeScript", "Next.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS", "UI/UX Design"],
   },
-  // {
-  //   title: "Frontend Developer Intern",
-  //   company: "WhatBytes",
-  //   period: "Jan 2025 - May 2025",
-  //   responsibilities: [
-  //     "Worked on a live project called Cura Care (curacare.in)",
-  //     "Implemented website analytics to track user interactions using PostHog, Google Analytics, and Facebook Pixel",
-  //     "Developed dynamic slot management system based on bookings",
-  //   ],
-  //   skills: ["Next.js","ReactJs", "JavaScript", "TailwindCSS"],
-  // },
   // {
   //   title: "Web Developer",
   //   company: "Ministry of Electronics and Information Technology",
