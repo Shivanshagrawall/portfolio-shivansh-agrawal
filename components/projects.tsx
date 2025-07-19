@@ -10,7 +10,7 @@ import Link from "next/link"
 const projects = [
   {
     logo: "/matchwize.svg",
-    title: "Imagify - Text to Image AI SAAS App",
+    title: "CrafttAI - Text to Image AI SAAS App",
     description:
       "Imagify turns your text prompts into stunning, AI-generated images in real time—offering style presets, adjustable quality settings, and easy download options to bring your creative ideas to life.",
     image: "/Text-to-Image-Convertor.webp",
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     logo: "/englishexpresswayLogo.svg",
-    title: "EDEMY - Learning Platform",
+    title: "Learnzo - Learning Platform",
     description:
       "An online platform to upload and purchase courses to upskill, featuring user authentication and Stripe payment integration.",
     image: "/lms.webp",
@@ -39,6 +39,23 @@ const projects = [
       "Responsive landing page with course listings",
       "User dashboard for enrolled courses",
       "Admin dashboard for content management",
+    ],
+  },
+  {
+    logo: "/exceedroboticsLogo.png",
+    title: "Chatify - Real-time Messaging & Image Sharing Platform",
+    description:
+      "A real‑time messaging application that lets users exchange text and images instantly, featuring live online/offline presence indicators, secure JWT‑protected access, and a responsive, user‑friendly interface.",
+    image: "/Chatify.webp",
+    tags: ["React.js" ,"Node.js", "Express.js", "Tailwind CSS", "Mongodb","Cloudinary", "Socket.io"],
+    demoUrl: "https://chat-application-client-rouge.vercel.app/",
+    githubUrl: "https://github.com/Shivanshagrawall/ChatApplication",
+    features: [
+      "Live bidirectional messaging with real-time presence tracking",
+      "Secure RESTful APIs with JWT and bcrypt hashing",
+      "Image uploads to Cloudinary with CDN delivery",
+      "Responsive interface with Tailwind CSS design",
+      "Environment variables configuration with secure CORS setup",
     ],
   },
   {
@@ -74,23 +91,6 @@ const projects = [
       "Responsive design for seamless user experience",
       "Intuitive interface for easy navigation",
     ]
-  },
-  {
-    logo: "/exceedroboticsLogo.png",
-    title: "Call Sphere - Video Confercing App",
-    description:
-      "A video conferencing application that allows users to create and join meetings with real-time video and audio capabilities, featuring a user-friendly interface and secure access.",
-    image: "/call-sphere.webp",
-    tags: ["React.js" , "Tailwind CSS", "ZegoCloud SDK",],
-    demoUrl: "https://call-sphere.vercel.app/",
-    githubUrl: "https://github.com/Shivanshagrawall/CallSphere",
-    features: [
-      "Real-time video and audio conferencing",
-      "User-friendly interface for easy navigation",
-      "Secure meeting access with unique room IDs",
-      "Responsive design for mobile and desktop",
-      "Integration with ZegoCloud SDK for reliable performance",
-    ],
   },
 ]
 
